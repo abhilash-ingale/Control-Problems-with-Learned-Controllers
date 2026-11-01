@@ -1,0 +1,21 @@
+# conda env create -f environment.yml && conda activate pendulum-rl
+# pip install -e . --no-deps --no-build-isolation
+name: pendulum-rl
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pip
+  - setuptools
+  - numpy
+  - scipy
+  - sympy
+  - matplotlib
+  - pytest
+  - mujoco>=3.2
+  - gymnasium>=1.0
+  - pytorch
+  - tensorboard
+  - imageio
+  - imageio-ffmpeg
